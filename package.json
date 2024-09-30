@@ -1,0 +1,28 @@
+{
+  "name": "github-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@octokit/openapi-types": "^22.2.0",
+    "@octokit/rest": "^21.0.2",
+    "@octokit/types": "^13.5.0",
+    "@types/node-fetch": "^2.6.11",
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.4.5",
+    "graphql-request": "^7.1.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^22.5.1",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^6.4.15",
+    "nodemailer": "^6.9.14",
+    "typescript": "^5.5.4"
+  }
+}
